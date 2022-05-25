@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Karla", sans-serif;
+}
+
+body {
+  background-color: hsl(204deg, 43%, 93%);
+}
+
+.card {
+  margin: 72px 32px;
+}
+.card div {
+  padding: 32px 24px;
+}
+.card div h1 {
+  margin-bottom: 15px;
+}
+
+.community {
+  background-color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.community h1 {
+  color: hsl(179deg, 62%, 43%);
+}
+.community h2 {
+  color: hsl(71deg, 73%, 54%);
+  margin-bottom: 15px;
+}
+.community p {
+  color: hsl(218deg, 22%, 67%);
+  line-height: 1.8;
+  font-size: 1.3rem;
+}
+
+.sub, .us {
+  background-color: hsl(179deg, 62%, 43%);
+}
+.sub h1, .us h1 {
+  color: white;
+}
+.sub button, .us button {
+  background-color: hsl(71deg, 73%, 54%);
+  color: white;
+  width: 100%;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.sub .price, .us .price {
+  color: white;
+  font-size: 1.7rem;
+  margin-bottom: 5px;
+}
+.sub .price span, .us .price span {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.sub p, .us p {
+  color: white;
+  font-size: 1.7rem;
+  margin-bottom: 25px;
+}
+
+.us {
+  opacity: 80%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.us li {
+  font-size: 1.4rem;
+  color: hsl(204deg, 43%, 93%);
+}
+
+footer {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
